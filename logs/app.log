@@ -1,0 +1,4 @@
+[2016-09-12 22:11:58] my_logger.ERROR: [DEVICE ADD] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdasdasdasd-6' for key 'unique_index_devicetoring' [] []
+[2016-09-12 22:11:58] my_logger.ERROR: [DEVICE ADD] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdasdasdasd-6' for key 'unique_index_devicetoring' [] []
+[2016-09-12 22:12:27] my_logger.ERROR: [DEVICE ADD] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdasdasdasd-6' for key 'unique_index_devicetoring' [] []
+[2016-09-12 22:13:28] my_logger.ERROR: [DEVICE ADD] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'asdasdasdasd-6' for key 'unique_index_devicetoring' [] []
