@@ -3,18 +3,12 @@ use \Psr\Http\Message\ServerRequestInterface as Request;
 use \Psr\Http\Message\ResponseInterface as Response;
 
 require '../vendor/autoload.php';
-//require '../vendor/Monolog/Logger.php';
-spl_autoload_register(function ($classname) {
-    require ("../classes/" . $classname . ".php");
-});
+
 
 $config['displayErrorDetails'] = true;
 $config['addContentLengthHeader'] = false;
 
-$config['db']['host']   = "";
-$config['db']['user']   = "";
-$config['db']['pass']   = "";
-$config['db']['dbname'] = "";
+require '../classes/dbconfig.php';
 
 //$app = new \Slim\App;
 $app = new \Slim\App(["settings" => $config]);
